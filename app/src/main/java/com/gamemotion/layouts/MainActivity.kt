@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
                 supportFragmentManager
                     .beginTransaction()
-                    .add(R.id.espacio,FragmentoDescripcion.newInstance("Texto1","Texto2") , "espacio")
+                    .add(R.id.espacio,Fragmento.newInstance("Texto1","Texto2") , "espacio")
                     .commit()
             } else {
 

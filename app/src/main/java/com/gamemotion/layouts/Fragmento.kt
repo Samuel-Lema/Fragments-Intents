@@ -12,7 +12,7 @@ private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
 
-class FragmentoDescripcion : Fragment() {
+class Fragmento : Fragment() {
 
     //Variables en las que vamos a recibir los parámetros
     var param1: String? = null
@@ -46,7 +46,7 @@ class FragmentoDescripcion : Fragment() {
     companion object {
 
         fun newInstance(param1: String, param2: String) =
-            FragmentoDescripcion().apply {
+            Fragmento().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)
